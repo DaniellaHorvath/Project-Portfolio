@@ -1,0 +1,41 @@
+/* 
+--- 01 TYPOGRAPHY SYSTEM 
+
+Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+Font-weights
+Default: 400
+
+Line-heights
+Default: 1
+Small: 1.05
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    /* font-size: 10px;
+    10px / 16px = 0.625 = 62.5%
+    Percentage of user's browser font-sizin setting  */
+
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: "Rubi" sans-serif ;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    /* background-color: #087f5b; */
+}
