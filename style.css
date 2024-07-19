@@ -2,7 +2,7 @@
     background-color: #087f5b;
 } */
 
-
+/* --- Navbar --- */
 
 .logo {
     width: 15rem;
@@ -13,6 +13,7 @@
     display: flex;
     padding: 4.8rem;
     
+    
 }
 
 .main-nav-list {
@@ -21,7 +22,7 @@
     list-style: none;
     padding: 0;
     margin: 0;
-    gap: 6.2rem;
+    gap: 9.2rem;
    
 }
 
@@ -35,4 +36,65 @@
 #wrapper {
     max-width: 1120px;
     margin: 0 auto;
+}
+
+/* --- Article section --- */
+
+.h1-article {
+    font-size: 3.6rem;
+    color: black;
+    padding: 4.8rem 0 2.2rem 0;
+}
+
+.article-div{
+    display: flex;
+    align-items: center;
+    
+}
+
+.article-summary {
+    font-size: 1.8rem;
+    line-height: 1.5;
+
+}
+
+.profile-img {
+    width: 60rem;
+    height: 40rem;
+    padding-right: 0;
+   
+    
+}
+
+/* --- Section --- */
+
+.section-h1 {
+    font-size: 3.6rem;
+    color: black;
+    padding: 4.8rem 0 2.2rem 0;
+}
+
+.section-p {
+    font-size: 1.8rem;
+    line-height: 1.5;
+}
+
+.section-div {
+    padding-bottom: 4.8rem;
+}
+
+
+/* --- Footer --- */
+
+.footer{
+    display: flex;
+    justify-content: center;
+    padding: 3.2rem;
+    border-top: 2px solid #087f5b;
+}
+
+.footer-p{
+    font-size: 1.8rem;
+    color: black;
+    
 }
